@@ -1,0 +1,10 @@
+<!--
+     SPDX-FileCopyrightText: crDroid Android Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.crdroid.apps.resources">
+
+    <application android:hasCode="false" />
+</manifest>

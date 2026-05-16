@@ -1,0 +1,20 @@
+//
+// SPDX-FileCopyrightText: crDroid Android Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_library {
+    name: "com.crdroid.apps.resources",
+    defaults: [
+        "SettingsLibDefaults",
+    ],
+
+    resource_dirs: ["res"],
+
+    static_libs: [
+        "androidx.core_core",
+        "androidx.preference_preference",
+    ],
+    sdk_version: "current",
+
+}

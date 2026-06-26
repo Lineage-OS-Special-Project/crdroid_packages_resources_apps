@@ -7,4 +7,10 @@
 
     <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
     <string name="summary_empty" translatable="false"></string>
+
+    <!-- Updater -->
+    <string name="updater_link_telegram">Telegram</string>
+    <string name="updater_link_donate">Donate</string>
+    <string name="updater_link_forum">Forum</string>
+    <string name="updater_build_unofficial">Unofficial</string>
 </resources>

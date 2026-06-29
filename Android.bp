@@ -1,10 +1,10 @@
 //
-// SPDX-FileCopyrightText: crDroid Android Project
+// SPDX-FileCopyrightText: Lineage OS Special Project (LOSP)
 // SPDX-License-Identifier: Apache-2.0
 //
 
 android_library {
-    name: "com.crdroid.apps.resources",
+    name: "com.losp.apps.resources",
     defaults: [
         "SettingsLibDefaults",
     ],

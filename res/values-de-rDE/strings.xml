@@ -63,6 +63,8 @@
     <string name="omnijaws_grant_background_location_summary">Needed to keep the widget and lock screen weather updated in the background</string>
     <string name="omnijaws_weather_icon_pack_title">Wettersymbolpaket</string>
     <string name="omnijaws_icon_theme_title">Symboldesign</string>
+    <string name="omnijaws_widget_sub_locality_title">Show area</string>
+    <string name="omnijaws_widget_sub_locality_summary">Show the neighbourhood below the city name</string>
     <string name="omnijaws_theme_system">Follow system</string>
     <string name="omnijaws_theme_light">Hell</string>
     <string name="omnijaws_theme_dark">Dunkel</string>
@@ -86,6 +88,11 @@
     <string name="omnijaws_forecast_show_more">Mehr anzeigen</string>
     <string name="omnijaws_forecast_show_less">Weniger anzeigen</string>
     <string name="omnijaws_forecast_today">Heute</string>
+    <string name="omnijaws_forecast_yesterday">Yesterday</string>
+    <string name="omnijaws_forecast_tomorrow">Tomorrow</string>
+    <!-- Multi-day forecast view toggle -->
+    <string name="omnijaws_forecast_view_line">Line</string>
+    <string name="omnijaws_forecast_view_list">List</string>
     <!-- Detail card titles -->
     <string name="omnijaws_detail_feels_like">Gefühlt</string>
     <string name="omnijaws_detail_uv_index">UV-Index</string>
@@ -95,12 +102,29 @@
     <string name="omnijaws_detail_visibility">Sichtweite</string>
     <string name="omnijaws_detail_sunrise_sunset">Sonnenauf- &amp; -untergang</string>
     <string name="omnijaws_detail_dew_point">Taupunkt</string>
+    <string name="omnijaws_detail_air_quality">Air quality</string>
     <!-- UV index levels -->
     <string name="omnijaws_uv_level_low">Niedrig</string>
     <string name="omnijaws_uv_level_moderate">Mäßig</string>
     <string name="omnijaws_uv_level_high">Hoch</string>
     <string name="omnijaws_uv_level_very_high">Sehr hoch</string>
     <string name="omnijaws_uv_level_extreme">Extrem</string>
+    <!-- Air quality levels, shared by the US and India scales -->
+    <string name="omnijaws_aqi_level_good">Gut</string>
+    <string name="omnijaws_aqi_level_moderate">Mäßig</string>
+    <!-- Air quality levels, US AQI -->
+    <string name="omnijaws_aqi_level_sensitive">Unhealthy for sensitive groups</string>
+    <string name="omnijaws_aqi_level_unhealthy">Unhealthy</string>
+    <string name="omnijaws_aqi_level_very_unhealthy">Very unhealthy</string>
+    <string name="omnijaws_aqi_level_hazardous">Hazardous</string>
+    <!-- Air quality levels, India National AQI -->
+    <string name="omnijaws_aqi_level_satisfactory">Satisfactory</string>
+    <string name="omnijaws_aqi_level_poor">Gering</string>
+    <string name="omnijaws_aqi_level_very_poor">Very poor</string>
+    <string name="omnijaws_aqi_level_severe">Severe</string>
+    <!-- Particulate concentrations in micrograms per cubic metre. %1$d = value -->
+    <string name="omnijaws_aqi_pm25_format">PM2.5 %1$d \u00b5g/m\u00b3</string>
+    <string name="omnijaws_aqi_pm10_format">PM10 %1$d \u00b5g/m\u00b3</string>
     <!-- Visibility levels -->
     <string name="omnijaws_visibility_level_clear">Klar</string>
     <string name="omnijaws_visibility_level_good">Gut</string>
@@ -297,6 +321,7 @@
     <string name="dolby_profile_work">Work</string>
     <string name="dolby_profile_casual">Casual</string>
     <string name="dolby_profile_mood">Mood</string>
+    <string name="dolby_profile_custom">Custom</string>
     <!-- Dolby equalizer presets -->
     <string name="dolby_preset_default">Flat (off)</string>
     <string name="dolby_preset_rock">Rock</string>
@@ -410,7 +435,6 @@
     <string name="dolby_enable_notification_access_desc">Enable notification access to keep Dolby Atmos running in the background and allow automatic profile switching.</string>
     <string name="dolby_notification_access_permission_details">This permission allows Dolby Atmos to:\n\n• Run continuously in the background\n• Automatically switch audio profiles\n• Monitor foreground apps\n\nYour notifications will not be read or modified.</string>
     <string name="dolby_open_settings">Open Settings</string>
-    <string name="dolby_cancel">Cancel</string>
     <!--import export -->
     <string name="dolby_import_export_presets">Import/Export Presets</string>
     <string name="dolby_import_presets">Import Presets</string>
